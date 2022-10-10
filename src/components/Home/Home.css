@@ -1,9 +1,9 @@
-.cover-image{
+.cover-image {
     width: 800px;
     height: 500px;
 }
 
-.header-info{
+.header-info {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -12,22 +12,23 @@
     border-radius: 10px;
 }
 
-.cover-text h1{
+.cover-text h1 {
     color: blueviolet;
 }
-.cover-text h4{
+
+.cover-text h4 {
     color: rgb(0, 0, 0);
     padding-right: 20px;
 }
 
 
 @media only screen and (max-width: 700px) {
-    .cover-image{
+    .cover-image {
         width: 400px;
         height: 400px;
     }
-    
-    .header-info{
+
+    .header-info {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -36,24 +37,33 @@
         border: 1px solid blueviolet;
         border-radius: 10px;
     }
-    .cover-text h1{
+
+    .cover-text h1 {
         color: blueviolet;
         font-size: 25px;
     }
-    .cover-text h4{
+
+    .cover-text h4 {
         color: rgb(0, 0, 0);
         padding-right: 0px;
     }
-  }
 
-  
+    .topics-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        margin-bottom: 60px;
+    }
+}
+
+
 @media only screen and (max-width: 1100px) {
-    .cover-image{
+    .cover-image {
         width: 400px;
         height: 400px;
     }
-    
-    .header-info{
+
+    .header-info {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -62,16 +72,51 @@
         border-radius: 10px;
     }
 
-    .cover-text h1{
+    .cover-text h1 {
         color: blueviolet;
         font-size: 25px;
     }
-  }
+
+    /* .topics-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+        margin-bottom: 60px;
+    } */
+}
 
 
-  .topics-container{
+
+.topics-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin-bottom: 60px;
-  }
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 960px) {
+    .topics-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (min-width: 961px) and (max-width: 1300px) {
+    .topics-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0px;
+        margin-bottom: 60px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .topics-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        margin-bottom: 60px;
+        margin: 10px;
+    }
+}
