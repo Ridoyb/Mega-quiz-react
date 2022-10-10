@@ -1,0 +1,29 @@
+.topic{
+    border: 1px solid blueviolet;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(160, 159, 159);
+    border-radius: 10px;
+}
+
+.topic img{
+    height: 200px;
+}
+
+.topic-info{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+
+.btn-start{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: blueviolet;
+}
