@@ -1,0 +1,12 @@
+.blog{
+    border: 3px solid blueviolet;
+    margin: 40px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(192, 174, 209);
+}
+
+.blog h2{
+    text-align: center;
+    
+}

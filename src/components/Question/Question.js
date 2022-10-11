@@ -15,17 +15,11 @@ const Question = ({quiz}) => {
     const notify = () => toast(`${correctAnswer}`);
 
     const answer=correctAnswer;
-    let [marks, setMarks] = useState([]);
     const handleclick= click=>{
     const value=click.target.value;
         
         if(value === answer ){
-            toast.success("AWESOME! Your Answe is Correct!!")
-            setMarks((current) => [...current, value]);
-            
-
-            
-            
+            toast.success("AWESOME! Your Answer is Correct!!")  
         }
         if(value !== answer){
             toast.error("OPPS! Wrong Answer!! Try Again")
