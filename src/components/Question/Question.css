@@ -1,0 +1,52 @@
+.quiz{
+    border: 1px solid blueviolet;
+    margin: 15px;
+    padding: 20px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin: 10px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+
+    .options{
+        display: flex;
+        /* grid-template-rows: repeat(1, 1fr); */
+        flex-direction: column;
+        gap: 5px;
+        margin: 10px;
+        
+    }
+}
+.Option-div{
+    margin: 10px;
+    background-color: rgb(205, 189, 219);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.option{
+    font-size: 15px;
+    margin: 10px;
+}
+
+.question-container{
+    display: grid;
+    justify-items: center;
+    margin: 0 20px;
+}
+.icon{
+    color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+}
+
+.eye-btn{
+    border: 0;
+}

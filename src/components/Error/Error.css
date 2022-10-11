@@ -1,13 +1,12 @@
 .error{
-    height: 1000px;
-    padding-top: 150px;
+    padding: 200px;
 }
 .error img{
     height: 200px;
     width: 200px;
 }
 
-.error h1,h3{
+.error-title{
     color: blueviolet;
     font-size: 50px;
-}
+} 

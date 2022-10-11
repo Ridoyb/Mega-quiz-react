@@ -6,8 +6,8 @@ const Error = () => {
     return (
         <div className='error'>
             <img src={image} alt="" />
-            <h1>404</h1>
-            <h3>Page Not Found!!</h3>
+            <h1 className='error-title'>404</h1>
+            <h3 className='error-title'>Page Not Found!!</h3>
         </div>
     );
 };
