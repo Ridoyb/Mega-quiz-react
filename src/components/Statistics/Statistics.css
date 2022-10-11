@@ -1,0 +1,9 @@
+.stat{
+    color: blueviolet;
+}
+
+.chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
