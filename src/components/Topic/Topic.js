@@ -3,7 +3,7 @@ import './Topic.css'
 
 const Topic = ({topic}) => {
     const {name,logo,total} =topic;
-    console.log(topic)
+    // console.log(topic)
     return (
         <div className='topic'>
             <img src={logo} alt="" />
