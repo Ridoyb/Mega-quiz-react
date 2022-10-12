@@ -20,14 +20,14 @@ const Statistics = () => {
         <div>
             <h1 className='stat'>Statistics</h1>
         <div className='chart'>
-        <ResponsiveContainer width={600} height={600}>
-        <LineChart
+        <ResponsiveContainer width={400} height={400}>
+        <LineChart 
           width={500}
           height={300}
           data={data.data}
           margin={{
             top: 5,
-            right: 30,
+            right: 40,
             left: 20,
             bottom: 5,
           }}
