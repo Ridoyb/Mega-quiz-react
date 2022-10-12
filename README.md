@@ -1,6 +1,18 @@
 # Getting Started with Create React App
 
-* Name
+ ### Name: Mega Quiz
+ Live link: [Netlify] (https://mega-quiz-assignment-react.netlify.app/)
+
+ Features:
+ * Responsive Navbar
+ * Responsive Header
+ * Dynamic Routes
+ * Quiz topics
+ * Start quiz and select ans
+ * show correct and wrong notification after selecting options
+ * See correct ans from eye button
+ * Blog
+ * Chart 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
